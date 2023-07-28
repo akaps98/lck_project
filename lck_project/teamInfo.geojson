@@ -1,0 +1,63 @@
+[
+    {
+        "name": "KT Rolster",
+        "sponsor": "kt", "Douyu", "logitech", "MILLET",
+        "head coach": "Hirai (Kang Dong-hoon)",
+        "coach": "supreme (Choi Seung-min)", "RapidStar (Jung Min-sung)",
+    }
+    {
+        "name": "T1"
+        "sponsor": "SKT 5GX", "Nike", "KLevv Memory", "Mercedes-Benz",
+        "head coach": "Tom (Im Jae-hyeon)",
+        "coach": "Roach (Kim Kang-hee)",
+    }
+    {
+        "name": "Gen.G Esports",
+        "sponsor": "Afreecatv", "PUMA", "ROCCAT", "SIDIZ",
+        "head coach": "Score (Go Dong-bin)",
+        "coach": "Mafa (Won Sang-yeon)",
+    }
+    {
+        "name": "Dplus KIA",
+        "sponsor": "KIA", "Adidas", "Hanatour", "Xenics",
+        "head coach": "Acorn (Choi Cheon-ju)",
+        "coach": "GorillA (Kang Beom-hyun)",
+    }
+    {
+        "name": "Hanwha Life Esports",
+        "sponsor": "Hanwha Life", "CUBE", "KOLONFNC", "RAZER",
+        "head coach": "DanDy (Choi In-kyu)",
+        "coach": "Mowgli (Lee Jae-ha)",
+    }
+    {
+        "name": "Liiv Sandbox",
+        "sponsor": "SANDBOX NETWORK", "Liiv", "KBstar", "Giant",
+        "head coach": "Ryu (Ryu Sang-wook)",
+        "coach": "Lyn (Kim Da-bin)",
+    }
+    {
+        "name": "BRION",
+        "sponsor": "OKSavingsBank", "hummel", "bread&co.", "GOALSTUDIO",
+        "head coach": "Edgar (Choi Woo-beom)",
+        "coach": "Drinker (Lee Seung-hoo)",
+
+    }
+    {
+        "name": "Kwangdong Freecs",
+        "sponsor": "Kwangdong", "ABKO", "AKRacing", "lecoqsportif",
+        "head coach": "cvMax (Kim Dae-ho)",
+        "coach": "Alvingo (Choi Byeong-cheol)",
+    }
+    {
+        "name": "DRX",
+        "sponsor": "Shinhan Bank", "Red Bull", "Porsche Korea", "YES24",
+        "head coach": "Micro (Kim Mok-kyoung)",
+        "coach": "Shine (Shin Dong-wook)",
+    }
+    {
+        "name": "Nongshim RedForce",
+        "sponsor": "Nongshim", "Logitech G", "noblechairs", "SteelSeries",
+        "head coach": "Irean (Heo Yeong-cheol)",
+        "coach": "Coco (Shin Jin-yeong)",
+    }
+]
