@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA2D66542A75293A00B03A4C /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2D66532A75293A00B03A4C /* Team.swift */; };
+		EA2D66562A75309500B03A4C /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2D66552A75309500B03A4C /* ModelData.swift */; };
 		EAE2AF6E2A6FAF2500155271 /* lck_projectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE2AF6D2A6FAF2500155271 /* lck_projectApp.swift */; };
 		EAE2AF702A6FAF2500155271 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE2AF6F2A6FAF2500155271 /* ContentView.swift */; };
 		EAE2AF722A6FAF2700155271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE2AF712A6FAF2700155271 /* Assets.xcassets */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA2D66532A75293A00B03A4C /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		EA2D66552A75309500B03A4C /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		EAE2AF6A2A6FAF2500155271 /* lck_project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lck_project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE2AF6D2A6FAF2500155271 /* lck_projectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lck_projectApp.swift; sourceTree = "<group>"; };
 		EAE2AF6F2A6FAF2500155271 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,6 +116,8 @@
 				EAE2AF982A6FAF5100155271 /* teamList.swift */,
 				EAE2AF9D2A6FB27900155271 /* teamIntro.swift */,
 				EAE2AF712A6FAF2700155271 /* Assets.xcassets */,
+				EA2D66532A75293A00B03A4C /* Team.swift */,
+				EA2D66552A75309500B03A4C /* ModelData.swift */,
 				EAE2AF9A2A6FAFD900155271 /* teamInfo.geojson */,
 				EAE2AF732A6FAF2700155271 /* lck_project.entitlements */,
 				EAE2AF742A6FAF2700155271 /* Preview Content */,
@@ -288,7 +294,9 @@
 				EAE2AF992A6FAF5100155271 /* teamList.swift in Sources */,
 				EAE2AF9E2A6FB27900155271 /* teamIntro.swift in Sources */,
 				EAE2AF702A6FAF2500155271 /* ContentView.swift in Sources */,
+				EA2D66542A75293A00B03A4C /* Team.swift in Sources */,
 				EAE2AF6E2A6FAF2500155271 /* lck_projectApp.swift in Sources */,
+				EA2D66562A75309500B03A4C /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
