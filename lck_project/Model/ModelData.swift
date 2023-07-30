@@ -6,6 +6,9 @@
 //
 
 import Foundation
+import CoreLocation
+
+var teams = decodeJsonFromJsonFile(jsonFileName: "TeamInfo.json")
 
 func decodeJsonFromJsonFile(jsonFileName: String) -> [Team] {
     if let file = Bundle.main.url(forResource: jsonFileName, withExtension: nil) {

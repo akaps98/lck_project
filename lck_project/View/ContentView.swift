@@ -11,15 +11,19 @@ struct ContentView: View {
     @State private var showingAlert = false
     
     var body: some View {
-        VStack {
-            NavigationView {
+        NavigationView {
+            ZStack {
+                LinearGradient(gradient: Gradient(colors: [Color("primaryColor"), Color("secondaryColor")]),
+                               startPoint: .top, endPoint: .bottom)
+                .edgesIgnoringSafeArea(.all)
+                
                 VStack {
                     Image("lck_icon")
                         .resizable()
                         .frame(width: 210, height: 120)
                         .padding(40)
                     Text("League of Legends Championship Korea")
-                        .font(Font.custom("CHANEY-UltraExtended", size: 20, relativeTo: .title2))
+                        .font(Font.custom("CHANEY-UltraExtended", size: 20))
                         .fontWeight(.heavy)
                         .multilineTextAlignment(.center)
                     Spacer()
@@ -28,7 +32,7 @@ struct ContentView: View {
                         .frame(width: 70, height: 70)
                     Spacer()
                     Text("Be the MYTH\nBe the LEGEND")
-                        .font(Font.custom("SinkinSans-500Medium", size: 20, relativeTo: .title2))
+                        .font(Font.custom("SinkinSans-500Medium", size: 20))
                         .fontWeight(.ultraLight)
                         .multilineTextAlignment(.center)
                         .padding(30)
@@ -36,9 +40,9 @@ struct ContentView: View {
                         )
                     Spacer()
                     Text("Let's watch LCK!")
-                        .font(Font.custom("SinkinSans-500Medium", size: 15, relativeTo: .body))
+                        .font(Font.custom("SinkinSans-500Medium", size: 15))
                         .padding(25)
-                    NavigationLink(destination: teamList()) {
+                    NavigationLink(destination: TeamList()) {
                         Image(systemName: "arrowtriangle.right.circle.fill").resizable()
                             .frame(width: 60, height: 60)
                     }
@@ -47,8 +51,8 @@ struct ContentView: View {
                     }, label: {
                         Image(systemName: "info.circle")
                     }).alert(isPresented: $showingAlert) {
-                            Alert(title: Text("LCK Introducing app"), message: Text("s3916884: Junsik Kang"), dismissButton: .default(Text("Got it!")))
-                        }.offset(x: 160, y: 5)
+                        Alert(title: Text("LCK Introducing app"), message: Text("s3916884: Junsik Kang"), dismissButton: .default(Text("Got it!")))
+                    }.offset(x: 160, y: 5)
                 }
             }
         }

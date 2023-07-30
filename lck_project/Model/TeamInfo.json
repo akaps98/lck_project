@@ -1,0 +1,173 @@
+[
+    {
+        "id": 1,
+        "name": "KT Rolster",
+        "since": "2012",
+        "sponsor": ["kt", "logitech", "MILLET"],
+        "headCoach": "Hirai (Kang Dong-hoon)",
+        "coach": "supreme (Choi Seung-min)",
+        "player": {
+            "Top": "Kiin (Kim Gi-in)",
+            "Jungle": "Cuzz (Moon Woo-chan)",
+            "Mid": "Bdd (Gwak Bo-seong)",
+            "ADC": "Aiming (Kim Ha-ram)",
+            "Support": "Lehends (Son Si-woo)"
+        },
+        "teamLogo": "KT Rolster_icon",
+        "memberPic": "KT Rolster_member"
+    },
+    {
+        "id": 2,
+        "name": "T1",
+        "since": "2012",
+        "sponsor": ["SKT 5GX", "Mercedes-Benz"],
+        "headCoach": "Tom (Im Jae-hyeon)",
+        "coach": "Roach (Kim Kang-hee)",
+        "player": {
+            "Top": "Zeus (Choi Woo-je)",
+            "Jungle": "Oner (Moon Hyeon-joon)",
+            "Mid": "Faker (Lee Sang-hyeok)",
+            "ADC": "Guamyusi (Lee Min-hyeong)",
+            "Support": "Keria (Ryu Min-seok)"
+        },
+        "teamLogo": "T1_icon",
+        "memberPic": "T1_member"
+    },
+    {
+        "id": 3,
+        "name": "Gen.G Esports",
+        "since": "2013",
+        "sponsor": ["Afreecatv", "SIDIZ"],
+        "headCoach": "Score (Go Dong-bin)",
+        "coach": "Mafa (Won Sang-yeon)",
+        "player": {
+            "Top": "Doran (Choi Hyeon-joon)",
+            "Jungle": "Peanut (Han Wang-ho)",
+            "Mid": "Chovy (Jeong Ji-hoon)",
+            "ADC": "Peyz (Kim Su-hwan)",
+            "Support": "Delight (Kim Su-hwan)"
+        },
+        "teamLogo": "Gen.G Esports_icon",
+        "memberPic": "Gen.G Esports_member"
+    },
+    {
+        "id": 4,
+        "name": "Dplus KIA",
+        "since": "2017",
+        "sponsor": ["KIA", "Adidas"],
+        "headCoach": "Acorn (Choi Cheon-ju)",
+        "coach": "GorillA (Kang Beom-hyun)",
+        "player": {
+            "Top": "Canna (Kim Chang-dong)",
+            "Jungle": "Canyon (Kim Geon-bu)",
+            "Mid": "ShowMaker (Heo Su)",
+            "ADC": "Deft (Kim Hyuk-kyu)",
+            "Support": "Kellin (Kim Hyeong-gyu)"
+        },
+        "teamLogo": "Dplus KIA_icon",
+        "memberPic": "Dplus KIA_member"
+    },
+    {
+        "id": 5,
+        "name": "Hanwha Life Esports",
+        "since": "2018",
+        "sponsor": ["Hanwha Life", "RAZER"],
+        "headCoach": "DanDy (Choi In-kyu)",
+        "coach": "Mowgli (Lee Jae-ha)",
+        "player": {
+            "Top": "Kingen (Hwang Seong-hoon)",
+            "Jungle": "Grizzly (Jo Seung-hoon)",
+            "Mid": "Zeka (Kim Geon-woo)",
+            "ADC": "Viper (Park Do-hyeon)",
+            "Support": "Life (Kim Jeong-min)"
+        },
+        "teamLogo": "Hanwha Life Esports_icon",
+        "memberPic": "Hanwha Life Esports_member"
+    },
+    {
+        "id": 6,
+        "name": "Liiv Sandbox",
+        "since": "2016",
+        "sponsor": ["SANDBOX NETWORK", "KBstar"],
+        "headCoach": "Ryu (Ryu Sang-wook)",
+        "coach": "Lyn (Kim Da-bin)",
+        "player": {
+            "Top": "Burdol (Noh Tae-yoon)",
+            "Jungle": "Willer (Kim Jeong-hyeon)",
+            "Mid": "Clozer (Lee Ju-hyeon)",
+            "ADC": "Teddy (Park Jin-seong)",
+            "Support": "Kael (Kim Jin-hong)"
+        },
+        "teamLogo": "Liiv Sandbox_icon",
+        "memberPic": "Liiv Sandbox_member"
+    },
+    {
+        "id": 7,
+        "name": "BRION",
+        "since": "2018",
+        "sponsor": ["OKSavingsBank", "GOALSTUDIO"],
+        "headCoach": "Edgar (Choi Woo-beom)",
+        "coach": "Drinker (Lee Seung-hoo)",
+        "player": {
+            "Top": "Morgan (Park Gi-tae)",
+            "Jungle": "Umti (Eom Seong-hyeon)",
+            "Mid": "Karis (Kim Hong-jo)",
+            "ADC": "Hena (Park Jeung-hwan)",
+            "Support": "Effort (Lee Sang-ho)"
+        },
+        "teamLogo": "BRION_icon",
+        "memberPic": "BRION_member"
+    },
+    {
+        "id": 8,
+        "name": "Kwangdong Freecs",
+        "since": "2016",
+        "sponsor": ["Kwangdong", "lecoqsportif"],
+        "headCoach": "cvMax (Kim Dae-ho)",
+        "coach": "Alvingo (Choi Byeong-cheol)",
+        "player": {
+            "Top": "DuDu (Lee Dong-ju)",
+            "Jungle": "Youngjae (Ko Yeong-jae)",
+            "Mid": "BuLLDoG (Lee Tae-yeong)",
+            "ADC": "Taeyoon (Kim Tae-yoon)",
+            "Support": "Jun (Yoon Se-jun)"
+        },
+        "teamLogo": "Kwangdong Freecs_icon",
+        "memberPic": "Kwangdong Freecs_member"
+    },
+    {
+        "id": 9,
+        "name": "DRX",
+        "since": "2012",
+        "sponsor": ["Shinhan Bank", "YES24"],
+        "headCoach": "Micro (Kim Mok-kyoung)",
+        "coach": "Shine (Shin Dong-wook)",
+        "player": {
+            "Top": "Rascal (Kim Kwang-hee)",
+            "Jungle": "Croco (Kim Dong-beom)",
+            "Mid": "FATE (Yoo Su-hyeok)",
+            "ADC": "Paduck (Park Seok-hyeon)",
+            "Support": "BeryL (Cho Geon-hee)"
+        },
+        "teamLogo": "DRX_icon",
+        "memberPic": "DRX_member"
+    },
+    {
+        "id": 10,
+        "name": "Nongshim RedForce",
+        "since": "2016",
+        "sponsor": ["Nongshim", "Logitech G"],
+        "headCoach": "Irean (Heo Yeong-cheol)",
+        "coach": "Coco (Shin Jin-yeong)",
+        "player": {
+            "Top": "DnDn (Park Geun-woo)",
+            "Jungle": "Sylvie (Lee Seung-bok)",
+            "Mid": "Quad (Song Su-hyeong)",
+            "ADC": "Jiwoo (Jung Ji-woo)",
+            "Support": "Peter (Jeong Yoon-su)"
+        },
+        "teamLogo": "Nongshim RedForce_icon",
+        "memberPic": "Nongshim RedForce_member"
+    }
+]
+
