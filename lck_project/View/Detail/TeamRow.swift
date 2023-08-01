@@ -16,7 +16,7 @@ struct TeamRow: View {
                 .resizable()
                 .frame(width: 35, height: 30)
             VStack(alignment: .leading) {
-                Text(team.name) // team.name
+                Text(team.name)
                     .font(Font.custom("SinkinSans-500Medium", size: 16.5, relativeTo: .body))
                     .padding(0.2)
                 Text("Since: \(team.since)")
