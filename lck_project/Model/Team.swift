@@ -7,6 +7,7 @@
 
 import Foundation
 import SwiftUI
+import CoreLocation
 
 struct Team: Codable, Identifiable {
     let id: Int
@@ -24,6 +25,15 @@ struct Team: Codable, Identifiable {
     var memberImage: Image {
         Image(memberPic)
     }
+    
+    var coordinates: Coordinates
+    
+    var locationCoordinate: CLLocationCoordinate2D {
+        CLLocationCoordinate2D(
+            latitude: coordinates.latitude,
+            longitude: coordinates.longitude
+        )
+    }
 }
 
 struct Player: Codable {
@@ -37,4 +47,9 @@ struct Player: Codable {
         case ADC = "ADC"
         case Support = "Support"
     }
+}
+
+struct Coordinates: Codable {
+    var latitude: Double
+    var longitude: Double
 }

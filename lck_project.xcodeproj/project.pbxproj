@@ -14,7 +14,12 @@
 		EA2D665E2A76A89800B03A4C /* TeamInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = EA2D665D2A76A89800B03A4C /* TeamInfo.json */; };
 		EA2D66642A76B7E400B03A4C /* TeamRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2D66632A76B7E400B03A4C /* TeamRow.swift */; };
 		EA2D666E2A76F2A400B03A4C /* AgencyFB-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA2D666D2A76F2A400B03A4C /* AgencyFB-Bold.ttf */; };
-		EA2D66712A76F7B500B03A4C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2D66702A76F7B500B03A4C /* DetailView.swift */; };
+		EA2D66732A78FAD400B03A4C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2D66722A78FAD300B03A4C /* MapView.swift */; };
+		EA2D66752A78FC6E00B03A4C /* TeamInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2D66742A78FC6E00B03A4C /* TeamInfoView.swift */; };
+		EA2D66772A78FDFD00B03A4C /* TeamMemberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2D66762A78FDFD00B03A4C /* TeamMemberView.swift */; };
+		EA2D66792A78FE7F00B03A4C /* TeamLogoSinceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2D66782A78FE7F00B03A4C /* TeamLogoSinceView.swift */; };
+		EA2D667B2A78FEE000B03A4C /* TeamHouseMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2D667A2A78FEE000B03A4C /* TeamHouseMapView.swift */; };
+		EA2D667E2A79093700B03A4C /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2D667D2A79093700B03A4C /* House.swift */; };
 		EAE2AF6E2A6FAF2500155271 /* lck_projectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE2AF6D2A6FAF2500155271 /* lck_projectApp.swift */; };
 		EAE2AF702A6FAF2500155271 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE2AF6F2A6FAF2500155271 /* ContentView.swift */; };
 		EAE2AF722A6FAF2700155271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE2AF712A6FAF2700155271 /* Assets.xcassets */; };
@@ -52,7 +57,12 @@
 		EA2D665D2A76A89800B03A4C /* TeamInfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TeamInfo.json; sourceTree = "<group>"; };
 		EA2D66632A76B7E400B03A4C /* TeamRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamRow.swift; sourceTree = "<group>"; };
 		EA2D666D2A76F2A400B03A4C /* AgencyFB-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AgencyFB-Bold.ttf"; sourceTree = "<group>"; };
-		EA2D66702A76F7B500B03A4C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		EA2D66722A78FAD300B03A4C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		EA2D66742A78FC6E00B03A4C /* TeamInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamInfoView.swift; sourceTree = "<group>"; };
+		EA2D66762A78FDFD00B03A4C /* TeamMemberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamMemberView.swift; sourceTree = "<group>"; };
+		EA2D66782A78FE7F00B03A4C /* TeamLogoSinceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamLogoSinceView.swift; sourceTree = "<group>"; };
+		EA2D667A2A78FEE000B03A4C /* TeamHouseMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamHouseMapView.swift; sourceTree = "<group>"; };
+		EA2D667D2A79093700B03A4C /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
 		EAE2AF6A2A6FAF2500155271 /* lck_project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lck_project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE2AF6D2A6FAF2500155271 /* lck_projectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lck_projectApp.swift; sourceTree = "<group>"; };
 		EAE2AF6F2A6FAF2500155271 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,12 +108,10 @@
 		EA2D665F2A76AAD100B03A4C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EA2D667C2A78FF7300B03A4C /* Detail */,
 				EAE2AF6F2A6FAF2500155271 /* ContentView.swift */,
 				EAE2AF982A6FAF5100155271 /* TeamList.swift */,
 				EA2D665B2A76674F00B03A4C /* EachTeam.swift */,
-				EA2D66592A76664A00B03A4C /* TeamMemberPic.swift */,
-				EA2D66632A76B7E400B03A4C /* TeamRow.swift */,
-				EA2D66702A76F7B500B03A4C /* DetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -114,8 +122,23 @@
 				EA2D66532A75293A00B03A4C /* Team.swift */,
 				EA2D66552A75309500B03A4C /* ModelData.swift */,
 				EA2D665D2A76A89800B03A4C /* TeamInfo.json */,
+				EA2D667D2A79093700B03A4C /* House.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		EA2D667C2A78FF7300B03A4C /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				EA2D66632A76B7E400B03A4C /* TeamRow.swift */,
+				EA2D66722A78FAD300B03A4C /* MapView.swift */,
+				EA2D66782A78FE7F00B03A4C /* TeamLogoSinceView.swift */,
+				EA2D66592A76664A00B03A4C /* TeamMemberPic.swift */,
+				EA2D66742A78FC6E00B03A4C /* TeamInfoView.swift */,
+				EA2D66762A78FDFD00B03A4C /* TeamMemberView.swift */,
+				EA2D667A2A78FEE000B03A4C /* TeamHouseMapView.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 		EAE2AF612A6FAF2500155271 = {
@@ -322,14 +345,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA2D667E2A79093700B03A4C /* House.swift in Sources */,
 				EAE2AF992A6FAF5100155271 /* TeamList.swift in Sources */,
-				EA2D66712A76F7B500B03A4C /* DetailView.swift in Sources */,
+				EA2D66752A78FC6E00B03A4C /* TeamInfoView.swift in Sources */,
 				EA2D665C2A76674F00B03A4C /* EachTeam.swift in Sources */,
 				EA2D665A2A76664A00B03A4C /* TeamMemberPic.swift in Sources */,
 				EAE2AF702A6FAF2500155271 /* ContentView.swift in Sources */,
 				EA2D66542A75293A00B03A4C /* Team.swift in Sources */,
 				EAE2AF6E2A6FAF2500155271 /* lck_projectApp.swift in Sources */,
+				EA2D667B2A78FEE000B03A4C /* TeamHouseMapView.swift in Sources */,
+				EA2D66732A78FAD400B03A4C /* MapView.swift in Sources */,
+				EA2D66772A78FDFD00B03A4C /* TeamMemberView.swift in Sources */,
 				EA2D66562A75309500B03A4C /* ModelData.swift in Sources */,
+				EA2D66792A78FE7F00B03A4C /* TeamLogoSinceView.swift in Sources */,
 				EA2D66642A76B7E400B03A4C /* TeamRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

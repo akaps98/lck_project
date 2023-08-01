@@ -36,8 +36,7 @@ struct ContentView: View {
                         .fontWeight(.ultraLight)
                         .multilineTextAlignment(.center)
                         .padding(30)
-                        .lineSpacing(7
-                        )
+                        .lineSpacing(7)
                     Spacer()
                     Text("Let's watch LCK!")
                         .font(Font.custom("SinkinSans-500Medium", size: 15))

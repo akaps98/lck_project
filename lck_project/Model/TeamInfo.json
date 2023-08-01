@@ -14,7 +14,11 @@
             "Support": "Lehends (Son Si-woo)"
         },
         "teamLogo": "KT Rolster_icon",
-        "memberPic": "KT Rolster_member"
+        "memberPic": "KT Rolster_member",
+        "coordinates": {
+            "latitude": 37.52606,
+            "longitude": 126.90308
+        }
     },
     {
         "id": 2,
@@ -31,7 +35,11 @@
             "Support": "Keria (Ryu Min-seok)"
         },
         "teamLogo": "T1_icon",
-        "memberPic": "T1_member"
+        "memberPic": "T1_member",
+        "coordinates": {
+            "latitude": 37.5192018,
+            "longitude": 126.937434
+        }
     },
     {
         "id": 3,
@@ -48,7 +56,11 @@
             "Support": "Delight (Kim Su-hwan)"
         },
         "teamLogo": "Gen.G Esports_icon",
-        "memberPic": "Gen.G Esports_member"
+        "memberPic": "Gen.G Esports_member",
+        "coordinates": {
+            "latitude": 37.5112341,
+            "longitude": 127.041826
+        }
     },
     {
         "id": 4,
@@ -65,7 +77,11 @@
             "Support": "Kellin (Kim Hyeong-gyu)"
         },
         "teamLogo": "Dplus KIA_icon",
-        "memberPic": "Dplus KIA_member"
+        "memberPic": "Dplus KIA_member",
+        "coordinates": {
+            "latitude": 37.5115607,
+            "longitude": 126.9146672
+        }
     },
     {
         "id": 5,
@@ -82,7 +98,11 @@
             "Support": "Life (Kim Jeong-min)"
         },
         "teamLogo": "Hanwha Life Esports_icon",
-        "memberPic": "Hanwha Life Esports_member"
+        "memberPic": "Hanwha Life Esports_member",
+        "coordinates": {
+            "latitude": 37.6577703,
+            "longitude": 126.7846924
+        }
     },
     {
         "id": 6,
@@ -99,7 +119,11 @@
             "Support": "Kael (Kim Jin-hong)"
         },
         "teamLogo": "Liiv Sandbox_icon",
-        "memberPic": "Liiv Sandbox_member"
+        "memberPic": "Liiv Sandbox_member",
+        "coordinates": {
+            "latitude": 37.5259728,
+            "longitude": 126.9655455
+        }
     },
     {
         "id": 7,
@@ -116,7 +140,11 @@
             "Support": "Effort (Lee Sang-ho)"
         },
         "teamLogo": "BRION_icon",
-        "memberPic": "BRION_member"
+        "memberPic": "BRION_member",
+        "coordinates": {
+            "latitude": 37.5432045,
+            "longitude": 127.0528295
+        }
     },
     {
         "id": 8,
@@ -133,7 +161,11 @@
             "Support": "Jun (Yoon Se-jun)"
         },
         "teamLogo": "Kwangdong Freecs_icon",
-        "memberPic": "Kwangdong Freecs_member"
+        "memberPic": "Kwangdong Freecs_member",
+        "coordinates": {
+            "latitude": 37.4012015,
+            "longitude": 127.1010759
+        }
     },
     {
         "id": 9,
@@ -150,7 +182,11 @@
             "Support": "BeryL (Cho Geon-hee)"
         },
         "teamLogo": "DRX_icon",
-        "memberPic": "DRX_member"
+        "memberPic": "DRX_member",
+        "coordinates": {
+            "latitude": 37.550494,
+            "longitude": 126.9200187
+        }
     },
     {
         "id": 10,
@@ -167,7 +203,11 @@
             "Support": "Peter (Jeong Yoon-su)"
         },
         "teamLogo": "Nongshim RedForce_icon",
-        "memberPic": "Nongshim RedForce_member"
+        "memberPic": "Nongshim RedForce_member",
+        "coordinates": {
+            "latitude": 37.51756,
+            "longitude": 127.0398295
+        }
     }
 ]
 
