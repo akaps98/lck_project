@@ -19,7 +19,6 @@
 		EA2D66772A78FDFD00B03A4C /* TeamMemberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2D66762A78FDFD00B03A4C /* TeamMemberView.swift */; };
 		EA2D66792A78FE7F00B03A4C /* TeamLogoSinceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2D66782A78FE7F00B03A4C /* TeamLogoSinceView.swift */; };
 		EA2D667B2A78FEE000B03A4C /* TeamHouseMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2D667A2A78FEE000B03A4C /* TeamHouseMapView.swift */; };
-		EA2D667E2A79093700B03A4C /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2D667D2A79093700B03A4C /* House.swift */; };
 		EA2D66822A79E07900B03A4C /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2D66812A79E07900B03A4C /* Favorites.swift */; };
 		EA2D66842A79E39800B03A4C /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2D66832A79E39800B03A4C /* FavoritesView.swift */; };
 		EAE2AF6E2A6FAF2500155271 /* lck_projectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE2AF6D2A6FAF2500155271 /* lck_projectApp.swift */; };
@@ -64,7 +63,6 @@
 		EA2D66762A78FDFD00B03A4C /* TeamMemberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamMemberView.swift; sourceTree = "<group>"; };
 		EA2D66782A78FE7F00B03A4C /* TeamLogoSinceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamLogoSinceView.swift; sourceTree = "<group>"; };
 		EA2D667A2A78FEE000B03A4C /* TeamHouseMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamHouseMapView.swift; sourceTree = "<group>"; };
-		EA2D667D2A79093700B03A4C /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
 		EA2D66812A79E07900B03A4C /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
 		EA2D66832A79E39800B03A4C /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		EAE2AF6A2A6FAF2500155271 /* lck_project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lck_project.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,7 +124,6 @@
 				EA2D66532A75293A00B03A4C /* Team.swift */,
 				EA2D66552A75309500B03A4C /* ModelData.swift */,
 				EA2D665D2A76A89800B03A4C /* TeamInfo.json */,
-				EA2D667D2A79093700B03A4C /* House.swift */,
 				EA2D66812A79E07900B03A4C /* Favorites.swift */,
 			);
 			path = Model;
@@ -352,7 +349,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA2D66822A79E07900B03A4C /* Favorites.swift in Sources */,
-				EA2D667E2A79093700B03A4C /* House.swift in Sources */,
 				EAE2AF992A6FAF5100155271 /* TeamList.swift in Sources */,
 				EA2D66752A78FC6E00B03A4C /* TeamInfoView.swift in Sources */,
 				EA2D665C2A76674F00B03A4C /* EachTeam.swift in Sources */,
