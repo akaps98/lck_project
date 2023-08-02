@@ -13,8 +13,8 @@
             "ADC": "Aiming (Kim Ha-ram)",
             "Support": "Lehends (Son Si-woo)"
         },
-        "teamLogo": "KT Rolster_icon",
-        "memberPic": "KT Rolster_member",
+        "teamLogo": "KTRolster_icon",
+        "memberPic": "KTRolster_member",
         "coordinates": {
             "latitude": 37.52606,
             "longitude": 126.90308
@@ -55,8 +55,8 @@
             "ADC": "Peyz (Kim Su-hwan)",
             "Support": "Delight (Kim Su-hwan)"
         },
-        "teamLogo": "Gen.G Esports_icon",
-        "memberPic": "Gen.G Esports_member",
+        "teamLogo": "Gen.GEsports_icon",
+        "memberPic": "Gen.GEsports_member",
         "coordinates": {
             "latitude": 37.5112341,
             "longitude": 127.041826
@@ -76,8 +76,8 @@
             "ADC": "Deft (Kim Hyuk-kyu)",
             "Support": "Kellin (Kim Hyeong-gyu)"
         },
-        "teamLogo": "Dplus KIA_icon",
-        "memberPic": "Dplus KIA_member",
+        "teamLogo": "DplusKIA_icon",
+        "memberPic": "DplusKIA_member",
         "coordinates": {
             "latitude": 37.5115607,
             "longitude": 126.9146672
@@ -97,8 +97,8 @@
             "ADC": "Viper (Park Do-hyeon)",
             "Support": "Life (Kim Jeong-min)"
         },
-        "teamLogo": "Hanwha Life Esports_icon",
-        "memberPic": "Hanwha Life Esports_member",
+        "teamLogo": "HanwhaLifeEsports_icon",
+        "memberPic": "HanwhaLifeEsports_member",
         "coordinates": {
             "latitude": 37.6577703,
             "longitude": 126.7846924
@@ -118,8 +118,8 @@
             "ADC": "Teddy (Park Jin-seong)",
             "Support": "Kael (Kim Jin-hong)"
         },
-        "teamLogo": "Liiv Sandbox_icon",
-        "memberPic": "Liiv Sandbox_member",
+        "teamLogo": "LiivSandbox_icon",
+        "memberPic": "LiivSandbox_member",
         "coordinates": {
             "latitude": 37.5259728,
             "longitude": 126.9655455
@@ -160,8 +160,8 @@
             "ADC": "Taeyoon (Kim Tae-yoon)",
             "Support": "Jun (Yoon Se-jun)"
         },
-        "teamLogo": "Kwangdong Freecs_icon",
-        "memberPic": "Kwangdong Freecs_member",
+        "teamLogo": "KwangdongFreecs_icon",
+        "memberPic": "KwangdongFreecs_member",
         "coordinates": {
             "latitude": 37.4012015,
             "longitude": 127.1010759
@@ -202,8 +202,8 @@
             "ADC": "Jiwoo (Jung Ji-woo)",
             "Support": "Peter (Jeong Yoon-su)"
         },
-        "teamLogo": "Nongshim RedForce_icon",
-        "memberPic": "Nongshim RedForce_member",
+        "teamLogo": "NongshimRedForce_icon",
+        "memberPic": "NongshimRedForce_member",
         "coordinates": {
             "latitude": 37.51756,
             "longitude": 127.0398295
