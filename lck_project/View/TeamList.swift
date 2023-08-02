@@ -9,6 +9,7 @@ import SwiftUI
 
 struct TeamList: View {
     @AppStorage("isDarkMode") private var isDark = false
+    @StateObject private var fv = FavoritesView()
     
     var body: some View {
         VStack {
@@ -16,9 +17,17 @@ struct TeamList: View {
                 NavigationLink{
                     EachTeam(team: Team)
                 } label: {
-                    TeamRow(team: Team)
+                    HStack {
+                        TeamRow(team: Team)
+                        Spacer()
+                        Image(systemName: fv.contains(Team) ? "heart.fill" : "heart")
+                            .foregroundColor(.red)
+                            .onTapGesture {
+                                fv.toggelFav(team: Team)
+                            }
+                    }
                 }.navigationTitle("⭐ LCK Teams ⭐")
-                    .preferredColorScheme(isDark ? .dark : .light)
+                .preferredColorScheme(isDark ? .dark : .light)
             }.toolbar{
                 ToolbarItem(placement:ToolbarItemPlacement.navigationBarTrailing) {
                     Button(action: {isDark.toggle()}, label: {
