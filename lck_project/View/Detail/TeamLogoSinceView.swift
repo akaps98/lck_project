@@ -18,11 +18,9 @@ struct TeamLogoSinceView: View {
             .font(Font.custom("CHANEY-UltraExtended", size: 30))
                 .bold()
                 .padding()
-                .foregroundColor(Color.white)
                 .multilineTextAlignment(.center)
             Text("Since: \(team.since)")
             .font(Font.custom("CHANEY-UltraExtended", size: 16))
-            .foregroundColor(Color.white)
             .padding(.bottom)
     }
 }

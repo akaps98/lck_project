@@ -13,10 +13,10 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             ZStack {
-                LinearGradient(gradient: Gradient(colors: [Color("primaryColor"), Color("secondaryColor")]),
+                LinearGradient(gradient: Gradient(colors: [Color(""), Color("primaryColor")]),
                                startPoint: .top, endPoint: .bottom)
                 .edgesIgnoringSafeArea(.all)
-                
+
                 VStack {
                     Image("lck_icon")
                         .resizable()

@@ -8,17 +8,27 @@
 import SwiftUI
 
 struct TeamList: View {
+    @AppStorage("isDarkMode") private var isDark = false
     
     var body: some View {
+        VStack {
             List(teams) { Team in
                 NavigationLink{
                     EachTeam(team: Team)
                 } label: {
                     TeamRow(team: Team)
                 }.navigationTitle("⭐ LCK Teams ⭐")
-            }.background(LinearGradient(gradient: Gradient(colors: [Color("primaryColor"), Color("secondaryColor")]),startPoint: .top, endPoint: .bottom)
-                .edgesIgnoringSafeArea(.all))
+                    .preferredColorScheme(isDark ? .dark : .light)
+            }.toolbar{
+                ToolbarItem(placement:ToolbarItemPlacement.navigationBarTrailing) {
+                    Button(action: {isDark.toggle()}, label: {
+                        isDark ? Label("light", systemImage: "sun.max") : Label("Dark", systemImage: "moon.fill")
+                    })
+                }
+            }.background(LinearGradient(gradient: Gradient(colors: [Color(""), Color("primaryColor")]),startPoint: .top, endPoint: .bottom)
+                    .edgesIgnoringSafeArea(.all))
             .scrollContentBackground(.hidden)
+        }.environment(\.colorScheme, isDark ? .dark : .light)
     }
 }
 
