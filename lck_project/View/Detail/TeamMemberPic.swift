@@ -20,6 +20,6 @@ struct TeamMemberPic: View {
 
 struct TeamMemberPic_Previews: PreviewProvider {
     static var previews: some View {
-        TeamMemberPic(memberImage: Image("KT Rolster_member"))
+        TeamMemberPic(memberImage: Image("KTRolster_member"))
     }
 }

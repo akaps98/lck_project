@@ -25,7 +25,7 @@ struct TeamList: View {
                         isDark ? Label("light", systemImage: "sun.max") : Label("Dark", systemImage: "moon.fill")
                     })
                 }
-            }.background(LinearGradient(gradient: Gradient(colors: [Color(""), Color("primaryColor")]),startPoint: .top, endPoint: .bottom)
+            }.background(LinearGradient(gradient: Gradient(colors: [Color(""), Color("primaryColor")]), startPoint: .top, endPoint: .bottom)
                     .edgesIgnoringSafeArea(.all))
             .scrollContentBackground(.hidden)
         }.environment(\.colorScheme, isDark ? .dark : .light)
