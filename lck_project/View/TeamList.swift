@@ -20,8 +20,8 @@ struct TeamList: View {
                     HStack {
                         TeamRow(team: Team)
                         Spacer()
-                        Image(systemName: fv.contains(Team) ? "heart.fill" : "heart")
-                            .foregroundColor(.red)
+                        Image(systemName: fv.contains(Team) ? "star.fill" : "star")
+                            .foregroundColor(.yellow)
                             .onTapGesture {
                                 fv.toggelFav(team: Team)
                             }
