@@ -1,9 +1,14 @@
-//
-//  FavoritesView.swift
-//  lck_project
-//
-//  Created by Tony on 2023/08/02.
-//
+/*
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2023B
+  Assessment: Assignment 1
+  Author: Junsik Kang
+  ID: s3916884
+  Created  date: 02/08/2023
+  Last modified: 02/08/2023
+  Acknowledgement: https://www.youtube.com/watch?v=_lPU9SrBpRI&t=480s
+*/
 
 import Foundation
 

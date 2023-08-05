@@ -1,9 +1,16 @@
-//
-//  Test.swift
-//  lck_project
-//
-//  Created by Tony on 2023/07/31.
-//
+/*
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2023B
+  Assessment: Assignment 1
+  Author: Junsik Kang
+  ID: s3916884
+  Created  date: 31/07/2023
+  Last modified: 05/08/2023
+  Acknowledgement:
+    1. https://www.youtube.com/watch?v=b5KZqZYvKmg&t=410s
+    2. https://nilcoalescing.com/blog/ReadingAndSettingColorSchemeInSwiftUI/
+*/
 
 import SwiftUI
 

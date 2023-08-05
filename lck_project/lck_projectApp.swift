@@ -1,9 +1,14 @@
-//
-//  lck_projectApp.swift
-//  lck_project
-//
-//  Created by Tony on 2023/07/25.
-//
+/*
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2023B
+  Assessment: Assignment 1
+  Author: Junsik Kang
+  ID: s3916884
+  Created  date: 25/07/2023
+  Last modified: 25/07/2023
+  Acknowledgement:
+*/
 
 import SwiftUI
 
